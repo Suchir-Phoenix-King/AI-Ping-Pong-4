@@ -1,0 +1,41 @@
+body
+{
+    background-size: contain;
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+}
+
+.heading h3 {
+    display: inline;
+}
+
+.heading button {
+    float: right;
+    border: 1px solid white;
+}
+
+.restart {
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 4px 4px 4px rgb(65, 1, 1);
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: rgb(55, 235, 109);
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: #000000;
+    line-height:3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(79, 255, 167);
+}
+
+#canvas {
+    border: 3px solid rgb(210, 241, 94);
+    box-shadow: 5px 5px 5px rgb(210, 241, 94);
+}
